@@ -35,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		BB48596F1F4FA598004A4B17 /* background-music-aac.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "background-music-aac.caf"; sourceTree = "<group>"; };
+		BB4859701F4FA598004A4B17 /* pew-pew-lei.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "pew-pew-lei.caf"; sourceTree = "<group>"; };
 		BBD059511F4F976900173AA4 /* Monster Adventure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Monster Adventure.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BBD059541F4F976900173AA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BBD0595A1F4F976900173AA4 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
@@ -76,6 +78,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		BB48596E1F4FA598004A4B17 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				BB48596F1F4FA598004A4B17 /* background-music-aac.caf */,
+				BB4859701F4FA598004A4B17 /* pew-pew-lei.caf */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
 		BBD059481F4F976900173AA4 = {
 			isa = PBXGroup;
 			children = (
@@ -99,6 +110,7 @@
 		BBD059531F4F976900173AA4 /* Monster Adventure */ = {
 			isa = PBXGroup;
 			children = (
+				BB48596E1F4FA598004A4B17 /* Sounds */,
 				BBD059541F4F976900173AA4 /* AppDelegate.swift */,
 				BBD0595A1F4F976900173AA4 /* GameScene.swift */,
 				BBD0595C1F4F976900173AA4 /* GameViewController.swift */,
